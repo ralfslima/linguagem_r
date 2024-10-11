@@ -4,7 +4,7 @@
 # 2 9 8 9 3
 # Percorra a matriz e retorne a quantidade de números pares e ímpares
 
-# Criar a matriz 5x5
+# Criar a matriz 5x5 (Essa maneira é mais compacta do que vimos na aula)
 matriz <- matrix(c(
    7, 8, 5, 4, 6, 
    1, 2, 4, 1, 5,
