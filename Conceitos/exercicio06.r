@@ -6,10 +6,12 @@
 
 # Criar a matriz 5x5
 matriz <- matrix(c(
-  7, 8, 5, 4, 6,
-  1, 2, 4, 1, 5,
-  2, 9, 8, 9, 3
-), nrow = 3, byrow = TRUE)
+   7, 8, 5, 4, 6, 
+   1, 2, 4, 1, 5,
+   2, 9, 8, 9, 3,
+   1, 9, 4, 1, 5,
+   7, 3, 8, 1, 3
+))
 
 # Inicializar contadores
 quantidade_pares <- 0
@@ -27,5 +29,5 @@ for (i in 1:nrow(matriz)) {
 }
 
 # Resultados
-cat("Quantidade de números pares:", quantidade_pares, "\n")
-cat("Quantidade de números ímpares:", quantidade_impares, "\n")
+print(paste("Quantidade de números pares:", quantidade_pares))
+print(paste("Quantidade de números ímpares:", quantidade_impares))
